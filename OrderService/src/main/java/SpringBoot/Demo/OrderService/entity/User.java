@@ -18,6 +18,5 @@ public class User {
     private String userName;
     private String email;
 
-    // Check this is spelled exactly as "password"
     private String password;
 }
