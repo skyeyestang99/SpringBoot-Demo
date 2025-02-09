@@ -8,7 +8,10 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/orders")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {
+        "http://localhost:4200",
+        "http://order-service-frontend.s3-website.us-east-2.amazonaws.com"
+})
 public class OrderController {
     private final OrderService orderService;
 

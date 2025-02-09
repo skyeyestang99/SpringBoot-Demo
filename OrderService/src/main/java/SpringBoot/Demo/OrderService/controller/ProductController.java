@@ -8,7 +8,9 @@ import java.util.List;
 
 @RestController
 @RequestMapping("api/products")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"http://localhost:4200",
+        "http://order-service-frontend.s3-website.us-east-2.amazonaws.com"
+})
 public class ProductController {
 
     private final ProductService productService;
