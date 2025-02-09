@@ -6,7 +6,7 @@ import { Order } from '../model/order';
 
 @Injectable({ providedIn: 'root' })
 export class CartService {
-  private apiUrl = 'http://localhost:8080/api/orders';
+  private apiUrl = 'http://18.219.221.219:8080/api/orders';
 
   constructor(private http: HttpClient) {}
 
