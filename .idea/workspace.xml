@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00289e3f-a240-4db3-a3c2-3bddebed0d89" name="Changes" comment="removed frontend dependency">
+    <list default="true" id="00289e3f-a240-4db3-a3c2-3bddebed0d89" name="Changes" comment="added cors for s3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/OrderService/src/main/java/SpringBoot/Demo/OrderService/entity/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +31,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Application.OrderServiceApplication.executor": "Run",
-    "Maven.OrderService [install].executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/tommytang/Desktop/backend",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Application.OrderServiceApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.OrderService [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/tommytang/Desktop/backend&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -116,7 +114,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739133937942</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added cors for s3">
+      <option name="closed" value="true" />
+      <created>1739134671215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739134671215</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +140,7 @@
     <MESSAGE value="first commit, finished 3 services" />
     <MESSAGE value="minor change" />
     <MESSAGE value="removed frontend dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed frontend dependency" />
+    <MESSAGE value="added cors for s3" />
+    <option name="LAST_COMMIT_MESSAGE" value="added cors for s3" />
   </component>
 </project>
